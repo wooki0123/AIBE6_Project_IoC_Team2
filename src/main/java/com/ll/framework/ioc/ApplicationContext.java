@@ -8,8 +8,8 @@ public class ApplicationContext {
     private TestPostRepository testPostRepository;
 
     public ApplicationContext() {
-        testPostService = new TestPostService();
         testPostRepository = new TestPostRepository();
+        testPostService = new TestPostService(testPostRepository);
     }
 
     public <T> T genBean(String beanName) {
