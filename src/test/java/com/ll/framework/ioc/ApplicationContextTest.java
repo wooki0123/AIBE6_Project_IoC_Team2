@@ -14,7 +14,7 @@ public class ApplicationContextTest {
 
     @BeforeAll
     public static void beforeAll() {
-        applicationContext = new ApplicationContext(); //v1
+        applicationContext = new ApplicationContext();
     }
 
     @Test
