@@ -9,7 +9,7 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/../../4월/spring_ioc_mission" />
           </set>
         </option>
       </GradleProjectSettings>
